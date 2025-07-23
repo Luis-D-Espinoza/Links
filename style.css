@@ -1,20 +1,24 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 
 }
 
 body {
-color:333;
+  background-color: #fbfbfb;
+  display: block;
+  margin: 50px;
 }
 
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .user-area {
   position: sticky;
-  height: 892px;
+  display: flex;
+  height: 900px;
   background-color: #FFFFFF;
   color: #0000;
   width: 383px;
@@ -37,11 +41,82 @@ scroll-behavior: smooth;
   position: block;
   box-sizing: border-box;
 }
-.h2 {
+
+.profile-picture {
+  height: 100px;
+  width: 100px;
+  display: inline;
+  overflow: clip;
+  margin-bottom: 
+}
+
+h2 {
   font-size: 30px;
   font-weight: 500;
   line-height: 30px;
-  background-color: #FFFFFF;
   color: #000000;
+  height: 30px;
+  width: 534px;
+  margin: 20px 0.8px 0;
+  display: block;
 
+}
+
+.social-links{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+  text-align: left;
+  height: 50px;
+  width: 500px;
+  margin: 20px 0.20px 0;
+  box-sizing: border-box;
+  ;
+}
+
+.content-area {
+  text-align: left;
+  background-color: grey;
+  color: black;
+  height: 925px;
+  width: 800px;
+  padding: 0px;
+  min-height: auto;
+  min-width: auto;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.content-grid {
+  background-color: grey;
+  height: 925px;
+  width: 800px;
+  min-height: auto;
+  min-width: auto;
+  display:flex table-column;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.content-button {
+  display: flex;
+  height: 179px;
+  width: 554px;
+  margin: 28px;
+  padding: 18px 18px 18px 18px;
+  min-height: auto;
+  min-width: auto;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #dedede;
+  box-sizing: border-box;
+  border-radius: 24px;
+  justify-content: center;
+  
+}
+
+img {
+  width: 100%;
+  height: 30px;
 }
