@@ -16,7 +16,7 @@ html {
 .user-area {
   position: sticky;
   display: flex;
-  height: 900px;
+  height: 300px;
   background-color: #FFFFFF;
   color: #0000;
   width: 350px;
@@ -40,6 +40,11 @@ html {
   position: block;
   box-sizing: border-box;
 }
+
+.user-details h2 {
+
+}
+
 
 .profile-picture {
   height: 100px;
@@ -72,23 +77,13 @@ h2 {
   margin: 20px 0.20px 0;
   box-sizing: border-box;
 }
-/*
-.content-area {
-  text-align: left;
-  background-color: red;
-  color: black;
-  height: 925px;
-  width: 900px;
-  min-height: auto;
-  min-width: auto;
-  display: flex;
-  box-sizing: border-box;
-  margin-left: 100px;
-  
-} */
+
+.Twitter-Icon {
+  line-height: 100px;
+}
 
 .content-grid {
-  background-color: grey;
+  background-color: #FFFFFF;
   height: 925px;
   width: 900px;
   display: flex table-column;
@@ -100,14 +95,15 @@ h2 {
 
 .content-button {
   display: flex;
-  height: 180px;
-  width: 554px;
-  margin: 28px;
+  height: 120px;
+  width: 700px;
+  margin: 25px;
+  margin-left: 100px;
   padding: 18px 18px 18px 18px;
   min-height: auto;
   min-width: auto;
   overflow: hidden;
-  background-color: #dedede;
+  background-color: #DEDEDE;
   box-sizing: border-box;
   border-radius: 24px;
   justify-content: center;
@@ -116,8 +112,7 @@ h2 {
 
 .button-container {
   text-decoration: none;
-  display: block;
-  background-color: red;
+  display: block;;
   width: 0%;
 }
 
@@ -136,3 +131,8 @@ h2 {
   gap: 10px;
   align-items: center;
 }
+
+.content-preview-text h3 {
+  font-size: medium;
+}
+
